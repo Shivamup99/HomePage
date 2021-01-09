@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bgimage{
+    background-image: url('./img/4.jfif');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+    width:22%;
+    line-height: 100px;
+    float: left;
+}
+.leftmenu h4{
+    padding-left: 50px;
+    font-weight: 700;
+    color: beige;
+    font-size: 30px;
+    font-family: 'Noto' sans-serif;
+    margin-bottom: 2.5rem;
+}
+.rightmenu{
+    width: 65%;
+    height: 100px;
+    float: right;
+}
+.rightmenu ul{
+    margin-left: 200px;
+}
+.rightmenu ul li{
+    font-family: 'Noto' sans-serif;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: beige;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 100px;
+    margin-left: 35px;
+}
+.rightmenu ul a li:hover{
+    color: cadetblue;
+    transition: 0.3s all ease-out;
+}
+.text{
+    width: 100%;
+    margin-top: 185px;
+    text-align: center;
+    color: cornsilk;
+}
+.text h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+.text h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.text h3{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 2rem;
+}
+.buttonone{
+    background-color: whitesmoke;
+    border: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 35px;
+    width: 140px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.buttonone:hover{
+    background-color: black;
+    color: cornsilk;
+}
+.buttontwo{
+    background-color: rgba(0, 149, 149, 1);
+    border: none;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 35px;
+    cursor: pointer;
+    width: 140px;
+    transition: 0.3s all ease-in-out;
+}
+.buttontwo:hover{
+    background-color: cornsilk;
+    color: black;
+}
